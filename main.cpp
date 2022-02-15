@@ -33,4 +33,5 @@ int main(int, char**) {
     cout << "al " << data2.getDay() << "/" << data2.getMonth() << "/" << data2.getYear() << "\n";
     cout << "intercorrono " << giorni << " giorni";
     system("pause");  
+    return 0;
 }
