@@ -1,0 +1,9 @@
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/NightlyMemoryCheck.dir
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/Experimental.dir
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/Continuous.dir
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/Nightly.dir
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/PACKAGE.dir
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/chat.dir
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/RUN_TESTS.dir
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/thega/vscode/app pietro/build/CMakeFiles/ZERO_CHECK.dir
