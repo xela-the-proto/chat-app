@@ -4,7 +4,7 @@ project(chat VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(chat main.cpp class.h)
+add_executable(chat main.cpp date.h advancedDate.h)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

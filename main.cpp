@@ -1,9 +1,12 @@
 #include <iostream>
 #include <cstdlib>
-#include "class.h"
+#include "Date.h"
+#include "advancedDate.h"
 using namespace std;
 int main(int, char**) {
+    
     int d,m,y;
+    /*
     cout << "calcolo del nuemro di giorni tra due date \n";
     cout << "inserire la prima data \n";
     cout << "giorno:";
@@ -33,5 +36,14 @@ int main(int, char**) {
     cout << "al " << data2.getDay() << "/" << data2.getMonth() << "/" << data2.getYear() << "\n";
     cout << "intercorrono " << giorni << " giorni";
     system("pause");  
+    */
+    cout << "DETERMINAZIONE DELLA PASQUA \n";
+    cout << "specifica l'anno: ";
+    cin >> y;
+
+    advancedDate::easter(y,d,m);
+
+    cout << "nell'anno " << y << " la pasqua cade nel giorno " << d << "/" << m << endl;
+
     return 0;
 }

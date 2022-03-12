@@ -306,7 +306,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\thega\vscode\app pietro\main.cpp" />
-    <ClInclude Include="C:\Users\thega\vscode\app pietro\class.h" />
+    <ClInclude Include="C:\Users\thega\vscode\app pietro\date.h" />
+    <ClInclude Include="C:\Users\thega\vscode\app pietro\advancedDate.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\Users\thega\vscode\app pietro\build\ZERO_CHECK.vcxproj">

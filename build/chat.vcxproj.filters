@@ -6,7 +6,10 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\thega\vscode\app pietro\class.h">
+    <ClInclude Include="C:\Users\thega\vscode\app pietro\date.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\thega\vscode\app pietro\advancedDate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
