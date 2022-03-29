@@ -4,7 +4,10 @@ project(chat VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-add_executable(chat main.cpp date.h advancedDate.h)
+add_executable(chat #main2Date.cpp 
+                    #mainEaster.cpp 
+                    mainMessage.cpp 
+                    date.h advancedDate.h message.h Time.h EnglishTime.h)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})

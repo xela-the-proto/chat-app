@@ -1,10 +1,12 @@
 #include "Date.h"
+#ifndef HEADER_advancedDate
+#define HEADER_advancedDate
 
 class advancedDate : public Date{
     private:
 
     static int easterNumber(int y){
-        int g, c, x, z, d, e, n;
+        int g, c, x = 0, z, d, e, n;
 
         g = y % 19 + 1;
         c = y / 100 + 1;
@@ -45,3 +47,4 @@ class advancedDate : public Date{
         }
     }
 };
+#endif HEADER_advancedDate

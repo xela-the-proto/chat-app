@@ -1,3 +1,5 @@
+#ifndef HEADER_Date
+#define HEADER_Date
 
 class Date
 {
@@ -72,3 +74,4 @@ private:
         return ( jd - my_jd );
     }
 };
+#endif HEADER_Define
