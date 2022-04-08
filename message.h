@@ -14,7 +14,7 @@ class Message{
 	
 	public:
 	Message(void){
-		strycpy(message,"");
+		strcpy(message,"");
 		received = false;
 		counter ++;//incremento per ogni oggetto
 	}
